@@ -1,0 +1,90 @@
+:root {
+    --peach-color: #FCCC9C;
+    --light-mint-color: #AAF0D1;
+    --vista-blue-color: #9CB2D3;
+    --white-smoke-color: #F1EDEE;
+    --coffee-color: #583f2b;
+    --cocoa-brown-color: #9E4B24;
+
+}
+
+body {
+    background-color: var(--cocoa-brown-color);
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    
+}
+
+nav {
+    background-color: var(--coffee-color);
+}
+
+img {
+    overflow: hidden;
+    padding-inline: 0;
+    margin: 0;
+}
+
+.container-fluid {   
+    
+}
+
+.row {
+    background-color: var(--cocoa-brown-color);
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3 > a:hover {
+    text-decoration: none;
+    color: #bbb;
+}
+.col-6 {
+    padding: 0;
+    margin: 0 auto;
+   
+}
+
+/* FORM CSS */
+.form-container {
+    background-color: var(--coffee-color);
+    width: 30rem;
+    height: 55vh;
+    padding: 2vh 1vw;
+    margin: 4vh auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;;
+    color: whitesmoke;
+
+}
+input {
+    display: inline-block;
+}
+input, select, textarea{
+    width: 100%;
+}
+
+textarea {
+    height: 6rem;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+table {
+    background-color: var(--coffee-color);
+    margin: 10px;
+}
+
+th, td, tr {
+    margin: auto;
+    padding: auto;
+}
+
