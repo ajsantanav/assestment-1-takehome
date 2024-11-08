@@ -26,9 +26,6 @@ img {
     margin: 0;
 }
 
-.container-fluid {   
-    
-}
 
 .row {
     background-color: var(--cocoa-brown-color);
@@ -87,4 +84,3 @@ th, td, tr {
     margin: auto;
     padding: auto;
 }
-
