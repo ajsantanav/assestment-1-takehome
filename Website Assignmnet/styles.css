@@ -47,6 +47,19 @@ h3 > a:hover {
     margin: 0 auto;
    
 }
+img {
+    animation: fadeInAnimation ease 3s;
+}
+
+@keyframes fadeInAnimation {
+    10% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* FORM CSS */
 .form-container {
